@@ -12,8 +12,9 @@ import Contact from "../contact/Contact"
 const Pages = () => {
   return (
     <>
-      <Router>
-        <Header />
+       
+    <Router>
+    <Header />
         <Switch>
           <Route exact path='/' component={Home} />
           <Route exact path='/about' component={About} />
@@ -23,7 +24,8 @@ const Pages = () => {
           <Route exact path='/contact' component={Contact} />
         </Switch>
         <Footer />
-      </Router>
+        </Router>
+       
     </>
   )
 }
